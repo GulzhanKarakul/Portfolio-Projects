@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Адаптивный многостраничный образовательный веб-сайт с использованием HTML, CSS и JavaScript</title>
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Font-Family подключение -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>EGATOR</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Grow your skills to andvance your career path</h1>
+                <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laboriosam dignissimos facilis voluptatibus doloremque ex dolor est tempora distinctio ab.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header_right">
+                <div class="header_right-image">
+                    <img src="./assets/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Categories</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magni voluptate deleniti, officiis aspernatur alias.
+                </p>
+                <a href="courses.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><i class="fa-brands fa-bitcoin" style="color: #ffffff;"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-palette" style="color: #ffffff;"></i></span>
+                    <h5>Graphic Desighn</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-dollar-sign" style="color: #ffffff;"></i></span>
+                    <h5>Finance</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-cart-shopping" style="color: #fafafa;"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></span>
+                    <h5>Music</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-briefcase" style="color: #ffffff;"></i></span>
+                    <h5>Business</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum?</p>
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses_container">
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course1.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course2.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course3.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
