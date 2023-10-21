@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивный многостраничный образовательный веб-сайт с использованием HTML, CSS и JavaScript</title>
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Font-Family подключение -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Swiper CDN -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .courses {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>EDU_KZ</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+
+        </div>
+    </nav>
+
+    <section class="courses">
+        <div class="container courses_container">
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course1.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course2.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course3.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course4.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course5.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course6.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course7.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course8.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course9.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course10.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course11.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course12.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course13.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course14.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course15.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course16.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course17.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./assets/course18.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive SmartHouse Website Desighn</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus error nam molestias quo facere impedit non.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>EDU_KZ</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, maiores.
+                    </p>
+                </a>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and conditions</a></li>
+                    <li><a href="">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contactsn Us</h4>
+                <div>
+                    <p>8775 115 65 80</p>
+                    <p>karakulgulzhan@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+            
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #fcfcfd;"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small> Copypight &copy; EDU_KZ</small>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
